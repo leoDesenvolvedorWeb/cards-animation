@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 body{
     display: flex;
@@ -10,10 +10,8 @@ body{
     background: whitesmoke;
     align-items: center;
 }
-
 .container{
     display: flex;
-
 }
 .card{
     height: 500px;
@@ -21,21 +19,21 @@ body{
     box-shadow: 5px 5px 20px black;
     overflow: hidden;
 }
-
 img{
     height: 500px;
-    width: 350px;
+    width: 350;
     border-radius: 3px;
 }
 .intro{
-    height: 200px;
-    height: 350px;
-    padding: 6px;
+    height: 70px;
+    width: 350px;
+    padding:6px;
     box-sizing: border-box;
     position: absolute;
     bottom: 240px;
-    background: rgb(27, 27, 27);
+    background: rgb(27, 27, 27, .5);
     color: white;
+    transition: .5s;
 }
 h1{
     margin: 10px;
@@ -58,5 +56,31 @@ span{
     height: 220px;
     bottom: 240px;
     background: black;
-
 }
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover img{
+    transform: scale(1.1) rotate(-3deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
